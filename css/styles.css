@@ -82,6 +82,11 @@ button {
 
 }
 
+.button:hover {
+    background-color: hsl(154, 91%, 26%);
+    border-radius: 5px;
+}
+
 form div {
     position: relative;
 }
