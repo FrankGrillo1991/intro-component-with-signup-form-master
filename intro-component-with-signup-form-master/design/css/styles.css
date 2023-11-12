@@ -3,11 +3,9 @@ html body {
     padding: 0;
     box-sizing: border-box;
     background-color: hsl(0, 100%, 74%);
-}
-
-main {
     background-image: url(images/bg-intro-desktop.png);
 }
+
 
 .container {
     display: flex;
