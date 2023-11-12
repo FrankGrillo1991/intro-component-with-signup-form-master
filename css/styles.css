@@ -35,15 +35,15 @@ form {
     background-color: #fff;
     padding: 25px;
     border-radius: 5px;
-    display: inline-block;
-    width: 33.33%;
+    display: grid;
+    width: 100%;
 }
 
 input {
     border: 2px solid black;
     width: 100%%;
     margin: 15px auto 0;
-    display: inline-block;
+    display: grid;
     color: hsl(249, 10%, 26%);
     padding-left: 20px;
     height: 40px;
