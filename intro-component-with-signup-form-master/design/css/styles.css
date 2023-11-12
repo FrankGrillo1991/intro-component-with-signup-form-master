@@ -1,26 +1,22 @@
-html body {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+
+
+body {
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
     background-color: hsl(0, 100%, 74%);
     background-image: url(images/bg-intro-desktop.png);
+    opacity: 1;
+    color: #fff;
 }
 
-
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.main-text {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    min-width: 300px;
-    max-width: 500px;
-    color: white;
-}
 
 form {
     position: relative;
