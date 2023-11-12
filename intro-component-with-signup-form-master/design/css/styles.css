@@ -25,6 +25,11 @@ main {
     color: white;
 }
 
+form {
+    display: block;
+    background-color: ;
+}
+
 
 h1 {
     display: table-cell;
