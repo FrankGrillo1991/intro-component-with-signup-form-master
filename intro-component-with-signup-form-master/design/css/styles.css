@@ -31,9 +31,10 @@ form {
 
 
 h1 {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+    max-width: 350px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-size: 48px;
 }
 
 h4 {
