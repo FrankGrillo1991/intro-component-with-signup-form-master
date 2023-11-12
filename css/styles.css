@@ -23,7 +23,6 @@ section {
 }
 
 h1 {
-    display: grid;
     max-width: 350px;
     margin-bottom: 20px;
     line-height: 1.2;
@@ -67,4 +66,8 @@ button {
 
 form div {
     position: relative;
+}
+
+.heading {
+    margin-top: 150px;
 }
