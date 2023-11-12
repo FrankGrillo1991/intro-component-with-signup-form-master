@@ -19,11 +19,12 @@ section  > .heading > form {
     grid-template-columns: auto auto;
 }
 
-h1 {
+h1 > p {
     max-width: 350px;
     margin-bottom: 20px;
     line-height: 1.2;
     font-size: 48px;
+    margin-left: 100px;
 }
 
 p {
@@ -37,7 +38,7 @@ form {
     border-radius: 5px;
     display: grid;
     width: 50%;
-    margin-left: 700px;
+    margin-left: 800px;
 }
 
 input {
