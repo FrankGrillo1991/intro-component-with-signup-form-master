@@ -25,6 +25,7 @@ main {
 }
 
 form {
+    position: relative;
     float: right;
 }
 
