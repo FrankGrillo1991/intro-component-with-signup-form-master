@@ -39,7 +39,7 @@ form {
 
 input {
     border: 2px solid black;
-    width: 100%;
+    width: 50%;
     margin: 15px auto 0;
     display: block;
     color: hsl(249, 10%, 26%);
