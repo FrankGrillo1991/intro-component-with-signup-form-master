@@ -17,6 +17,12 @@ body {
     color: #fff;
 }
 
+section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 50px;
+    padding: 0 120px;
+}
 
 form {
     position: relative;
