@@ -14,7 +14,7 @@ body {
     color: #fff;
 }
 
-section {
+section  > .heading {
     display: grid;
     grid-template-columns: auto auto;
 }
