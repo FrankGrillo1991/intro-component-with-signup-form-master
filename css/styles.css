@@ -21,3 +21,10 @@ section {
     column-gap: 50px;
     padding: 0 120px;
 }
+
+h1 {
+    max-width: 350px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-size: 48px;
+}
