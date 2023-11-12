@@ -6,14 +6,10 @@ body {
 }
 
 main {
-    background-image: url(bg-intro-desktop.png);
+    background-image: url(css/bg-intro-desktop.png);
     background-repeat: repeat;
 }
 
-.container-left {
-    height: 100%;
-    width: 100%;
-}
 
 h1 {
     display: table-cell;
