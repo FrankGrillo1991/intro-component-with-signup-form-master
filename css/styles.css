@@ -37,6 +37,7 @@ form {
     border-radius: 5px;
     display: inline-block;
     width: 33.33%;
+    align-items: flex-end;
 }
 
 input {
