@@ -31,7 +31,7 @@ p {
     font-size: 16px;
 }
 
-.heading > form {
+form {
     background-color: #fff;
     padding: 25px;
     border-radius: 5px;
