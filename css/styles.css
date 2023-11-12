@@ -55,6 +55,13 @@ input {
     border-radius: 5px;
 }
 
+.trial {
+    border-radius: 5px;
+    height: 60px;
+    text-align: center;
+    background-color: hsl(248, 325%, 49%);
+}
+
 button {
     margin-top: 10px;
     height: 40px;
