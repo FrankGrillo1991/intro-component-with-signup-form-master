@@ -26,6 +26,7 @@ main {
 }
 
 form {
+    float: right;
     display: block;
     background-color: ;
 }
