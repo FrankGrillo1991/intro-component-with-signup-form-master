@@ -37,6 +37,7 @@ form {
     border-radius: 5px;
     display: grid;
     width: 50%;
+    margin-left: 400px;
 }
 
 input {
