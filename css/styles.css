@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(./images/bg-intro-desktop.png);
+    opacity: 1;
+    color: #fff;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 50px;
+    padding: 0 120px;
+}
+
+form {
+    position: relative;
+    float: right;
+}
+
+
+h1 {
+    max-width: 350px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-size: 48px;
+}
+
+h4 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
