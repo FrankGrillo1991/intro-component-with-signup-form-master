@@ -57,9 +57,11 @@ input {
 
 .trial {
     border-radius: 5px;
+    width: 50%;
     height: 60px;
     text-align: center;
     background-color: hsl(248, 325%, 49%);
+    margin-left: 800px;
 }
 
 button {
