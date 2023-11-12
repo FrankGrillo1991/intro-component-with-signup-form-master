@@ -36,12 +36,12 @@ form {
     padding: 25px;
     border-radius: 5px;
     display: grid;
-    width: 100%;
+    width: 50%;
 }
 
 input {
     border: 2px solid black;
-    width: 100%%;
+    width: 50%%;
     margin: 15px auto 0;
     display: grid;
     color: hsl(249, 10%, 26%);
