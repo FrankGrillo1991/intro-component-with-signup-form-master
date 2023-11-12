@@ -39,3 +39,31 @@ p {
     padding: 25px;
     border-radius: 5px;
 }
+
+input {
+    border: 2px solid black;
+    width: 100%;
+    margin: 15px auto 0;
+    display: block;
+    color: hsl(249, 10%, 26%);
+    padding-left: 20px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+form div {
+    position: relative;
+}
