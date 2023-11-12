@@ -35,11 +35,12 @@ form {
     background-color: #fff;
     padding: 25px;
     border-radius: 5px;
+    width: 40%;
 }
 
 input {
     border: 2px solid black;
-    width: 50%;
+    width: 33.33%;
     margin: 15px auto 0;
     display: block;
     color: hsl(249, 10%, 26%);
