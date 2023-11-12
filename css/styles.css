@@ -14,7 +14,7 @@ body {
     color: #fff;
 }
 
-section  > .heading {
+section  > .heading > form {
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -37,7 +37,6 @@ form {
     border-radius: 5px;
     display: inline-block;
     width: 33.33%;
-    align-items: flex-end;
 }
 
 input {
@@ -48,6 +47,7 @@ input {
     color: hsl(249, 10%, 26%);
     padding-left: 20px;
     height: 40px;
+    text-align: center;
     border-radius: 5px;
 }
 
