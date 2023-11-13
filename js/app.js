@@ -22,4 +22,14 @@ function formValidation() {
     } else {
         successValidation(LastName);
     }
+    if (Email.value.trim()=== "") {
+        errorValidation(Email, '<em>Email cannot be empty</em>');
+    } else {
+        if (!isValid(Email.value())) {
+            errorValidation(Email, '<em>Looks like this is not an email<em>');
+            errorMailMsg();
+        } else {
+            successValidation(Password);
+        }
+    }
 }
