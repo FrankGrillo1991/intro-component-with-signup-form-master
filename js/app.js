@@ -26,10 +26,23 @@ function formValidation() {
         errorValidation(Email, '<em>Email cannot be empty</em>');
     } else {
         if (!isValid(Email.value())) {
-            errorValidation(Email, '<em>Looks like this is not an email<em>');
+            errorValidation(Email, '<em>Looks like this is not an email</em>');
             errorMailMsg();
+        } else {
+            successValidation(Email);
+        }
+        if (Password.value.trim()=== "") {
+            errorValidation(Password, '<em>Password cannot be empty</em>');
         } else {
             successValidation(Password);
         }
     }
+}
+
+function errorValidation(input, message) {
+    let field = input.parentElement.lastElementChild;
+    input.style.borderColor = "hsl(0, 100%, 74%)";
+    input.setAttribute("placeholder", '');
+    field.innerHTML = message;
+    input.parentElement.querySelector("i").style.visibility = 'visible'
 }
