@@ -46,3 +46,15 @@ function errorValidation(input, message) {
     field.innerHTML = message;
     input.parentElement.querySelector("i").style.visibility = 'visible'
 }
+
+function errorMailMsg() {
+    Email.style.color = "hsl(0, 100%, 74%)"
+}
+
+function successMailMsg() {
+    Email.style.color = "black"
+}
+
+function isValid(emailValidity)  {
+    return /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(emailValidity);
+}
