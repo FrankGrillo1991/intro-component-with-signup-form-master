@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     place-content: center;
     background-color: hsl(0, 100%, 74%);
-    background-image: url(./images/bg-intro-desktop.png);
+    background-image: url(../images/bg-intro-desktop.png);
     opacity: 1;
     color: #fff;
 }
