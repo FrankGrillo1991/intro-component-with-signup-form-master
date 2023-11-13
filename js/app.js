@@ -17,4 +17,9 @@ function formValidation() {
         successValidation(FirstName);
     }
 
+    if (LastName.value.trim()=== "") {
+        errorValidation(LastName, '<em>Last Name cannot be empty</em>');
+    } else {
+        successValidation(LastName);
+    }
 }
