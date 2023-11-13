@@ -44,7 +44,7 @@ function errorValidation(input, message) {
     input.style.borderColor = "hsl(0, 100%, 74%)";
     input.setAttribute("placeholder", '');
     field.innerHTML = message;
-    input.parentElement.querySelector("i").style.visibility = 'visible'
+    input.parentElement.querySelector("i").style.visibility = 'visible';
 }
 
 function errorMailMsg() {
@@ -52,9 +52,16 @@ function errorMailMsg() {
 }
 
 function successMailMsg() {
-    Email.style.color = "black"
+    Email.style.color = "black";
 }
 
 function isValid(emailValidity)  {
     return /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(emailValidity);
+}
+
+function successValidation(input) {
+    let field = input.parentElement.lastElementChild;
+    field.style.visibility = "hidden";
+    input.style.borderColor = "black";
+    input.parentElement.querySelector("i").style.visibility = 'hidden'
 }
