@@ -49,6 +49,7 @@ p {
 input {
     width: 80%;
     height: 60px;
+    border-radius: 15px;
 }
 
 .trial {
@@ -58,6 +59,7 @@ input {
     height: 60px;
     background-color: hsl(248, 32%, 49%);
     color: white;
+    border-radius: 15px;
 }
 
 .btn {
@@ -68,6 +70,7 @@ input {
     height: 60px;
     background-color: hsl(154, 59%, 51%);
     color: white;
+    border-radius: 15px;
 }
 
 
