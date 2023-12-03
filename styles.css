@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%;
+    height: 100vh;
 }
 
 h1 {
@@ -35,6 +36,7 @@ p {
     display: flex;
     flex-direction: column;
     width: 50%;
+    height: 100vh;
 }
 
 input {
