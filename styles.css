@@ -7,7 +7,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 100vh;
     background-color: hsl(0, 100%, 74%);
     background-image: url(images/bg-intro-desktop.png);
@@ -17,7 +17,7 @@ body {
 
 .heading-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 50%;
 }
 
@@ -33,7 +33,7 @@ p {
 
 .form-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 50%;
 }
 
