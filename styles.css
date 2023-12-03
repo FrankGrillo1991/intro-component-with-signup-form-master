@@ -42,6 +42,8 @@ form {
 }
 
 .trial {
+    display: flex;
+    flex-direction: column;
     width: 80%;
     height: 60px;
     background-color: hsl(248, 32%, 49%);
@@ -49,6 +51,8 @@ form {
 }
 
 .btn {
+    display: flex;
+    flex-direction: column;
     width: 80%;
     height: 60px;
     background-color: hsl(154, 59%, 51%);
