@@ -8,6 +8,8 @@ body {
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
     background-color: hsl(0, 100%, 74%);
     background-image: url(images/bg-intro-desktop.png);
