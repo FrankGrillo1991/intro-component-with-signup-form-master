@@ -22,7 +22,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 60px;
 }
 
 h1 {
