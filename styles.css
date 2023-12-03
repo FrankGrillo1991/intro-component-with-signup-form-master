@@ -37,6 +37,10 @@ p {
     width: 50%;
 }
 
+form {
+    width: 80%;
+}
+
 .trial {
     width: 80%;
     height: 60px;
