@@ -86,4 +86,8 @@ input {
     padding-top: 20px;
 }
 
+.btn:hover {
+    background-color: hsl(246, 25%, 77%);
+}
+
    
