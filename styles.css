@@ -116,6 +116,7 @@ input {
     .trial {
         display: flex;
         flex-direction: column;
+        width: 100vw;
         height: 60px;
         background-color: hsl(248, 32%, 49%);
         color: white;
@@ -128,6 +129,7 @@ input {
         display: flex;
         flex-direction: column;
         text-align: center;
+        width: 100vw;
         height: 60px;
         background-color: hsl(154, 59%, 51%);
         color: white;
