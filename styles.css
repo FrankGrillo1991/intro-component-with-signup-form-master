@@ -107,8 +107,10 @@ input {
 
     .form-container {
         display: flex;
+        width: 100vw;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         align-items: center;
         height: 100vh;
     }
@@ -116,6 +118,8 @@ input {
     .trial {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100vw;
         height: 60px;
         background-color: hsl(248, 32%, 49%);
@@ -128,6 +132,8 @@ input {
     .btn {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         width: 100vw;
         height: 60px;
