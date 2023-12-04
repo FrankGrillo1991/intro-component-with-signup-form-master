@@ -135,7 +135,6 @@ input {
         color: white;
         border-radius: 15px;
         margin-top: 30px;
-        padding-top: 20px;
     }
 
     .btn {
@@ -152,6 +151,5 @@ input {
         border-radius: 15px;
         margin-top: 10px;
         margin-bottom: 10px;
-        padding-top: 20px;
     }
 }
