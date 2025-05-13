@@ -115,7 +115,8 @@ input {
         height: 100vh;
     }
 
-    input {
+    input[type="text"],
+    input[type="email"] {
         width: 100vw;
         height: 40px;
         border-radius: 15px;
